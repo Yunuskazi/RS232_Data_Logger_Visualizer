@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RS232 Data Logger</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>RS232 Data Logger</h1>
+        <div class="data-container">
+            <div class="weight-section">
+                <h2>Current Weight</h2>
+                <div id="weight-value">-- kg</div>
+            </div>
+            <div class="voltage-section">
+                <h2>Voltage Readings</h2>
+                <div id="voltage-readings"></div>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

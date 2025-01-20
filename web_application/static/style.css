@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f2f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.data-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.weight-section, .voltage-section {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #555;
+    margin-top: 0;
+}
+
+#weight-value {
+    font-size: 2.5em;
+    text-align: center;
+    color: #2c3e50;
+    margin: 20px 0;
+}
+
+.voltage-reading {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 8px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.voltage-label {
+    color: #666;
+}
+
+.voltage-value {
+    color: #2c3e50;
+    font-weight: bold;
+}

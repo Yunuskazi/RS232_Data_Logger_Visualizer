@@ -2,7 +2,9 @@ import sqlite3
 import random
 from datetime import datetime
 
-# Create database and table
+ # Create database and table
+
+ 
 conn = sqlite3.connect('project.db')
 cursor = conn.cursor()
 

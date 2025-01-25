@@ -32,5 +32,6 @@ function updateData() {
 // Update data every second
 setInterval(updateData, 1000);
 
+
 // Initial update
 updateData();
